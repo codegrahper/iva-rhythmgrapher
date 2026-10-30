@@ -4,7 +4,7 @@ export const discographyItems: DiscographyItemData[] = [
   {
     id: 'human-fractal',
     title: 'Human Fractal',
-    releaseDate: 'Released April 20, 2014 (TODO: verify source information - BIO lists 2012)',
+    releaseDate: 'Released April 20, 2014',
     artwork: '/assets/images/artwork-human-fractal.jpg',
     credits: [
       'Produced, Composed & Performed By 양태석',
@@ -37,7 +37,7 @@ export const discographyItems: DiscographyItemData[] = [
     links: [
       {
         label: 'Download Full Story (PDF) ↗',
-        url: 'https://www.rhythmgrapher.com/_files/ugd/e01328_bedb23ba130c45d79edc5c915efc59fa.pdf',
+        url: 'https://00deb98d-22a6-4751-810b-2472b22317c6.filesusr.com/ugd/e01328_bedb23ba130c45d79edc5c915efc59fa.pdf',
         isExternal: true,
         isPdf: true,
       },

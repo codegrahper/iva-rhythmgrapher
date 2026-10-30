@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "python3 -m http.server 4173 --directory out",
+    "typecheck": "tsc --noEmit",
     "lint": "next lint"
   },
   "dependencies": {

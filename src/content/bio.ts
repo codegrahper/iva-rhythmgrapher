@@ -16,7 +16,7 @@ export const bioContent: BioData = {
       '2022 Resequence 4',
       '2021 낯섬에 떠도는 그리움',
       '2019 Re:DRUMS Vol.1 현의 몸짓',
-      '2012 Human Fractal',
+      '2014 Human Fractal',
     ],
     soloExhibitions: [
       '2021 “낯섬에 떠도는 그리움” 음악사진전',
