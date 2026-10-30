@@ -6,11 +6,15 @@ export const workItems: WorkItemData[] = [
     title: 'Performance',
     category: 'LIVE PERFORMANCE',
     description: '퍼포먼스 아카이브 영상 및 작업 기록입니다.',
+    previewMedia: {
+      type: 'image',
+      src: '/assets/images/concept-performance.jpg',
+    },
     note: 'TODO: verify source information & extract embedded YouTube link',
     links: [
       {
         label: 'Watch Performance on YouTube ↗',
-        url: 'https://www.youtube.com/@rhythmgrapher', // Fallback to official channel / TODO
+        url: 'https://www.youtube.com/@rhythmgrapher',
       },
     ],
   },
@@ -19,6 +23,10 @@ export const workItems: WorkItemData[] = [
     title: 'TimeScape',
     category: 'TIME SCAPE',
     description: '시간의 결을 소리와 리듬으로 기록한 TimeScape 시리즈입니다.',
+    previewMedia: {
+      type: 'image',
+      src: '/assets/images/bio-mont-saint-michel.jpg',
+    },
     note: 'TODO: verify source information & extract embedded YouTube link',
     links: [
       {
@@ -32,6 +40,11 @@ export const workItems: WorkItemData[] = [
     title: 'RhythmScape',
     category: 'RHYTHM SCAPE',
     description: '공간과 움직임 속에서 포착한 리듬 풍경 RhythmScape입니다.',
+    previewMedia: {
+      type: 'video',
+      src: '/assets/videos/rhythmscape-istanbul.mp4',
+      poster: '/assets/images/concept-market.jpg',
+    },
     note: 'TODO: verify source information & extract embedded YouTube link',
     links: [
       {
@@ -45,6 +58,11 @@ export const workItems: WorkItemData[] = [
     title: 'DrumScape',
     category: 'DRUM SCAPE',
     description: '드럼 사운드와 몸짓의 조형적 확장을 다룬 DrumScape 작업입니다.',
+    previewMedia: {
+      type: 'video',
+      src: '/assets/videos/blackwood.mp4',
+      poster: '/assets/images/concept-performance.jpg',
+    },
     note: 'TODO: verify source information & extract embedded YouTube link',
     links: [
       {

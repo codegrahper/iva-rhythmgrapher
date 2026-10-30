@@ -23,6 +23,7 @@ export interface DiscographyItemData {
   id: string;
   title: string;
   releaseDate?: string;
+  artwork?: string;
   tagline?: string;
   description?: string[];
   credits: string[];
@@ -43,6 +44,11 @@ export interface WorkItemData {
   title: string;
   category: string;
   description?: string;
+  previewMedia?: {
+    type: 'image' | 'video';
+    src: string;
+    poster?: string;
+  };
   links?: {
     label: string;
     url: string;

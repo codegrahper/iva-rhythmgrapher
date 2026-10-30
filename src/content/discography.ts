@@ -5,6 +5,7 @@ export const discographyItems: DiscographyItemData[] = [
     id: 'human-fractal',
     title: 'Human Fractal',
     releaseDate: 'Released April 20, 2014 (TODO: verify source information - BIO lists 2012)',
+    artwork: '/assets/images/artwork-human-fractal.jpg',
     credits: [
       'Produced, Composed & Performed By 양태석',
       'Except Track 01 & 06 양태석 & kayip',
@@ -21,6 +22,7 @@ export const discographyItems: DiscographyItemData[] = [
     id: 'redrums',
     title: 'Re:Drums Vol.1 현의 몸짓',
     releaseDate: '2019',
+    artwork: '/assets/images/artwork-redrums1.jpg',
     credits: [
       'All tracks written and recorded by 양태석',
       'All tracks performed and recorded using Sensory Percussion by Sunhouse',
@@ -50,6 +52,7 @@ export const discographyItems: DiscographyItemData[] = [
     id: '낯섬에-떠도는-그리움',
     title: '낯섬에 떠도는 그리움',
     releaseDate: 'releases January 13, 2021',
+    artwork: '/assets/images/artwork-nostalgia.jpg',
     tagline:
       '“리듬그래퍼 양태석의 ‘낯섬에 떠도는 그리움’ 그가 여행했던 세계 곳곳의 낯선 풍경들을 담은 32장의 사진과 그 사진을 담은 32곡의 음악으로 완성한 여행 에세이”',
     review: {
@@ -84,6 +87,7 @@ export const discographyItems: DiscographyItemData[] = [
     id: 'resequence4',
     title: 'Re:DRUMS Vol.2 REsequence 4',
     releaseDate: '2022',
+    artwork: '/assets/images/artwork-resequence4.jpg',
     tagline:
       '“사물의 소리들이 리듬그래퍼 양태석의 호흡으로 재배열되어 전통과 현대의 시공간을 초월해 미래로 울리다.”',
     review: {

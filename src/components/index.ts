@@ -4,3 +4,5 @@ export * from './DiscographyItem';
 export * from './WorkItem';
 export * from './ExternalLink';
 export * from './Footer';
+export * from './ScrollWorld/ScrollWorld';
+export * from './ArchiveDrawer/ArchiveDrawer';
