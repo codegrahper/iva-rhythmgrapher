@@ -253,10 +253,12 @@ nav a {
   margin-top:18px}
 .rhythm-film {
   width:100%;
+  max-width:340px;
   justify-self:center}
 .rhythm-film video {
   width:100%;
-  aspect-ratio:16/9;
+  height:auto;
+  aspect-ratio:9/16;
   object-fit:contain}
 .rhythm-film figcaption {
   font-size:11px;
@@ -678,10 +680,12 @@ nav a {
   border-bottom:1px solid var(--line)}
 .motion-study figure {
   width:100%;
+  max-width:340px;
   justify-self:center}
 .motion-study video {
   width:100%;
-  aspect-ratio:16/9;
+  height:auto;
+  aspect-ratio:9/16;
   object-fit:contain}
 .motion-study figcaption {
   font-size:11px;
