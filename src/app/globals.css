@@ -341,10 +341,26 @@ details[open] summary span {
   display:grid;
   grid-template-columns:1fr 1fr;
   gap:35px}
-.film-grid video {
+.film-link {
+  display:block;
+  position:relative;
+  overflow:hidden;
+  background:#080908}
+.film-link img {
+  display:block;
   width:100%;
   aspect-ratio:16/9;
-  object-fit:contain}
+  object-fit:cover}
+.film-play {
+  position:absolute;
+  left:50%;
+  top:50%;
+  transform:translate(-50%,-50%);
+  white-space:nowrap;
+  padding:14px 20px;
+  background:rgba(0,0,0,.78);
+  color:#fff;
+  font-size:14px}
 .film-grid figcaption {
   display:flex;
   justify-content:space-between;
