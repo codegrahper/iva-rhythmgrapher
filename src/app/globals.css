@@ -168,6 +168,14 @@ nav a {
 .story-frame.is-active {
   opacity:1;
   transform:scale(1)}
+.story-frame--full {
+  object-fit:contain;
+  transform:none}
+.story-visual:has(.story-frame--full.is-active) .image-index {
+  top:24px;
+  bottom:auto;
+  left:auto;
+  right:24px}
 .image-index {
   position:absolute;
   left:24px;
@@ -504,6 +512,9 @@ to {
   aspect-ratio:16/9;
   object-fit:cover;
   margin-bottom:30px}
+.mobile-story--full {
+  aspect-ratio:auto;
+  object-fit:contain}
 }
 
 @media(max-width:900px) {

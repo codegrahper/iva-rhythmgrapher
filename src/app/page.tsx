@@ -32,13 +32,13 @@ export default function Home() {
         <div className="story-grid">
           <div className="story-visual" aria-hidden="true">
             <img className="story-frame is-active" data-frame="0" src={asset('images/concept-market.jpg')} alt="" loading="lazy" />
-            <img className="story-frame" data-frame="1" src={asset('portfolio/travel-atacama.webp')} alt="" loading="lazy" />
+            <img className="story-frame story-frame--full" data-frame="1" src={asset('portfolio/travel-atacama.webp')} alt="" loading="lazy" />
             <img className="story-frame" data-frame="2" src={asset('portfolio/exhibition-2.webp')} alt="" loading="lazy" />
             <span className="image-index">SELECTED WORKS / <span id="scene-index">01</span></span>
           </div>
           <div className="story-chapters">
             <article className="story-chapter" data-chapter="0"><img className="mobile-story" src={asset('images/concept-market.jpg')} alt="시장 한가운데 펼쳐진 양태석의 드럼 퍼포먼스" loading="lazy" /><p className="eyebrow">PERFORMANCE</p><h3>몸짓이<br />음악이 되는 순간.</h3><p>익숙한 악기의 경계를 넘어, 몸의 움직임으로 소리를 만듭니다. 무대와 일상의 공간에서 이어온 드럼 퍼포먼스.</p><a className="text-link" href="#performance-film">연주 영상 보기 <span aria-hidden="true">↗</span></a></article>
-            <article className="story-chapter" data-chapter="1"><img className="mobile-story" src={asset('portfolio/travel-atacama.webp')} alt="넓은 하늘과 산맥이 펼쳐진 아타카마의 풍경" loading="lazy" /><p className="eyebrow">PHOTOGRAPHY & MUSIC</p><h3>낯선 풍경에서<br />나의 리듬을 찾다.</h3><p>세계 곳곳을 여행하며 담은 32장의 사진과 32곡의 음악. 「낯섬에 떠도는 그리움」은 소리로도 읽을 수 있는 여행 에세이입니다.</p><a className="text-link" href="https://youtube.com/playlist?list=PLkAQJ15VOXjxmjuu1cueVf8w1pf3DxTFO" target="_blank" rel="noreferrer">사진과 음악 만나기 <span aria-hidden="true">↗</span></a></article>
+            <article className="story-chapter" data-chapter="1"><img className="mobile-story mobile-story--full" src={asset('portfolio/travel-atacama.webp')} alt="아타카마의 넓은 하늘과 산맥 아래 서 있는 여행자와 자동차" loading="lazy" /><p className="eyebrow">PHOTOGRAPHY & MUSIC</p><h3>낯선 풍경에서<br />나의 리듬을 찾다.</h3><p>세계 곳곳을 여행하며 담은 32장의 사진과 32곡의 음악. 「낯섬에 떠도는 그리움」은 소리로도 읽을 수 있는 여행 에세이입니다.</p><a className="text-link" href="https://youtube.com/playlist?list=PLkAQJ15VOXjxmjuu1cueVf8w1pf3DxTFO" target="_blank" rel="noreferrer">사진과 음악 만나기 <span aria-hidden="true">↗</span></a></article>
             <article className="story-chapter" data-chapter="2"><img className="mobile-story" src={asset('portfolio/exhibition-2.webp')} alt="낯섬에 떠도는 그리움 전시의 사진과 빛" loading="lazy" /><p className="eyebrow">EXHIBITION</p><h3>사진을 듣고,<br />소리를 바라보다.</h3><p>풍경의 기억이 전시 공간으로 이어집니다. QR 코드로 사진 속 음악을 만나는 음악사진전, 「낯섬에 떠도는 그리움」.</p><p className="caption">Gallery One · 2021.11.06–11.12</p></article>
           </div>
         </div>
